@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="runicon"
+version="1.0.0"
+displayName="Run Icon"
+description='''
+Показывает анимированную иконку бега в правом нижнем углу экрана, пока игрок бежит.
+'''
+
+[[dependencies.runicon]]
+modId="forge"
+mandatory=true
+versionRange="[47.2.0,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.runicon]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="CLIENT"
